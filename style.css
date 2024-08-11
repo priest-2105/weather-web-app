@@ -66,22 +66,7 @@ body{
     margin-top: -10px;
 }
 
-
-.details{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
-}
-
-
-.col{
-    display: flex;
-    align-items: center;
-    text-align: left; 
-}
-
+ git 
 
 
 .col img{
