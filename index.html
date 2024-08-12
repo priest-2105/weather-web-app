@@ -40,6 +40,19 @@
 
     </div>
 
+    <script>
+
+    const Apikey = "a2c1d912d788951a8bc471cf0c1be1b9";
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
+    
+    async function checkWeather (){
+
+        const responnse = await fetch(apiUrl + `&appid=${Apikey}`);
+        var data = await responnse.json();
+        console.log(data);
+    }
+
+    </script>
     
 </body>
 </html>
